@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/Button'
+import Button from './components/Button';
+import Greet from './components/Greet';
+import Hello from './components/Hello';
+import Employee from './components/Employee';
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
           Anong <b> PAK </b> ang mataas tumalon?
           <br/>
           <b> Edi <i> TIPAKLONG. </i> </b>
+          <p>{Hello()}</p>
+          <Greet></Greet>
         </p>
+        <Employee/>
         <Button/>
         <a
           className="App-link"
