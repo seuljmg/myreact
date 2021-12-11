@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import employeeService from "../services/employeeService";
 import NavBar from "./NavBar";
 import {Link} from 'react-router-dom';
-import Warn from "./Warn"
 
 
 const Employee = () => {
