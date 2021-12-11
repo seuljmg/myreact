@@ -1,33 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from './components/Button';
-import Greet from './components/Greet';
-import Hello from './components/Hello';
-import Employee from './components/Employee';
+import NavBar from './components/NavBar';
+import Router from './components/Router';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="https://i.imgur.com/hOxMhcF.png" className="App-logo" alt="logo"/>
-        <p>
-          Anong <b> PAK </b> ang mataas tumalon?
-          <br/>
-          <b> Edi <i> TIPAKLONG. </i> </b>
-          <p>{Hello()}</p>
-          <Greet></Greet>
-        </p>
-        <Employee/>
-        <Button/>
-        <a
-          className="App-link"
-          href="https://www.lazada.com.ph/unipak-121004675/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Buy Uni-Pak Sardines
-        </a>
-      </header>
+      <NavBar />
+      <Router />
     </div>
   );
 }

@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Raleway&display=swap');
+
 .App {
   text-align: center;
 }
@@ -24,7 +27,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: cursive;
 }
 
 .App-link {
@@ -39,3 +41,87 @@
     transform: rotate(360deg);
   }
 }
+
+  .all {
+    background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Roboto;
+}
+
+#Header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: calc(72px);
+}
+
+#tableHeads {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contents {
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(18px);
+  vertical-align: middle;
+}
+
+#tdbut {
+  display: block;
+margin: auto;
+}
+
+#notfound {
+  background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+margin: 0;
+}
+
+#notfoundtext {
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 20vw;
+margin-bottom:0
+}
+
+#notfoundtext2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: calc(30px);
+  margin : 0; padding-top:0;
+  }
+
+  #AddNew {
+    background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-label {
+  width: 85vw;
+  margin:  auto;
+  text-align: left;
+}
+
+#addHeader {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: calc(72px);
+}
+
+
+
