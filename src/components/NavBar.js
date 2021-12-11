@@ -6,10 +6,10 @@ const NavBar = () => {
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a className="nav-link" href="/myreact">Home</a>
-        <a className="nav-link" href="/employee">Employee</a>
-        <a className="nav-link" href="/add">Add Employee</a>
-        <a className="nav-link" href="/edit">Edit Employee</a>
-        <a className="nav-link" href="/delete">Delete Employee</a>
+        <a className="nav-link" href="/myreact/employee">Employee</a>
+        <a className="nav-link" href="/myreact/add">Add Employee</a>
+        <a className="nav-link" href="/myreact/edit">Edit Employee</a>
+        <a className="nav-link" href="/myreact/delete">Delete Employee</a>
         <a className="nav-link disabled" href="/" tabindex="-1" aria-disabled="true">Disabled</a>
       </div>
     </div>
