@@ -51,8 +51,8 @@ const deleteEmployee = (employeeId) => {
                     <thead>
                     <tr className="table-dark" id="tableHeads">
                         <td>Name</td>
-                        <td>Location</td>
                         <td>Department</td>
+                        <td>Locations</td>
                         <td>Actions</td>
                     </tr>
                     </thead>
