@@ -66,7 +66,7 @@ const deleteEmployee = (employeeId) => {
                                    <td>{employee.location}</td>
                                    <td id="tdbut">
                                        <div className="d-grid gap-2 d-md-flex justify-content-md-center " id="buttonEmp">
-                                       <Link className="btn btn-success" to={`/edit/${employee.employeeId}`}>Update</Link>
+                                       <Link className="btn btn-success" to={`/myreact/edit/${employee.employeeId}`}>Update</Link>
                                        <button className="btn btn-danger" onClick={(e) => deleteEmployee(employee.employeeId)}>Delete</button>
 
                                     

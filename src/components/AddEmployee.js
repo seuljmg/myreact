@@ -35,7 +35,7 @@ const AddEmployee = () => {
     employeeService.putEmployee(employee)
     .then(response =>{
       console.log("Updated" + response.data, response.data);
-      navigate("/employee");
+      navigate("/myreact/employee");
     })
     .catch(error => {
       console.log("Something went wrong!")
@@ -46,7 +46,7 @@ else {
     employeeService.postEmployee(employee)
     .then(response =>{
       console.log("Added!" + employeeId, response.data);
-      navigate("/employee");
+      navigate("/myreact/employee");
     })
     .catch(error => {
       console.log("Something went wrong!")
